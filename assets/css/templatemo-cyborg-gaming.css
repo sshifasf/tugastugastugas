@@ -226,6 +226,35 @@ section {
   text-decoration: underline;
 }
 
+#userIndo {
+	color: #fff;
+	font-size: 14px;
+	font-weight: 500;
+	margin-right: 15px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#authArea {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#authArea button {
+    background-color: #e75e8d;
+    color: #fff;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 25px;
+    font-size: 14px;
+    transition: all .3s;
+}
+
+#authArea button:hover {
+    background-color: #fff;
+    color: #e75e8d;
+}
+
 /* 
 ---------------------------------------------
 Pre-loader Style
