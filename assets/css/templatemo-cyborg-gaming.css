@@ -226,34 +226,6 @@ section {
   text-decoration: underline;
 }
 
-#userIndo {
-	color: #fff;
-	font-size: 14px;
-	font-weight: 500;
-	margin-right: 15px;
-	display: inline-block;
-	vertical-align: middle;
-}
-
-#authArea {
-	display: inline-block;
-	vertical-align: middle;
-}
-
-#authArea button {
-    background-color: #e75e8d;
-    color: #fff;
-    border: none;
-    padding: 8px 20px;
-    border-radius: 25px;
-    font-size: 14px;
-    transition: all .3s;
-}
-
-#authArea button:hover {
-    background-color: #fff;
-    color: #e75e8d;
-}
 
 /* 
 ---------------------------------------------
@@ -580,6 +552,31 @@ Header Style
   left: 0;
   width: 75%;
 }
+
+#userInfo {
+    color: #fff !important; 
+    font-size: 14px !important; 
+    font-weight: 500;
+    margin-right: 10px; 
+    display: inline-block; 
+    vertical-align: middle;
+}
+
+#authArea {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#authArea button {
+    background-color: #e75e8d;
+    color: #fff;
+    border: none;
+    padding: 5px 15px; 
+    border-radius: 20px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
 
 .background-header .main-nav .menu-trigger span:before,
 .background-header .main-nav .menu-trigger span:after {
