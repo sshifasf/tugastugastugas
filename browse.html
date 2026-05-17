@@ -8,7 +8,7 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
-    <title>Cyborg - Awesome HTML5 Template</title>
+    <title>Jurnal Harian</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -58,19 +58,22 @@ https://templatemo.com/tm-579-cyborg-gaming
                     <!-- ***** Search End ***** -->
                     <div class="search-input">
                       <form id="search" action="#">
-                        <input type="text" placeholder="Type Something" id='searchText' name="searchKeyword" onkeypress="handle" />
+                        <input type="text" placeholder="Cari di sini..." id='searchText' name="searchKeyword" onkeypress="handle" />
                         <i class="fa fa-search"></i>
                       </form>
                     </div>
                     <!-- ***** Search End ***** -->
                     <!-- ***** Menu Start ***** -->
                     <ul class="nav">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="browse.html" class="active">Browse</a></li>
-                        <li><a href="details.html">Details</a></li>
-                        <li><a href="streams.html">Streams</a></li>
-                        <li><a href="profile.html">Profile <img src="assets/images/profile-header.jpg" alt=""></a></li>
+                        <li><a href="index.html">Beranda</a></li>
+                        <li><a href="browse.html" class="active">Telusuri</a></li>
+                        <li><a href="details.html">Isi Jurnal</a></li>
+                        <li><a href="profile.html">Prodil <img src="assets/images/profile-header.jpg" alt=""></a></li>
                     </ul>   
+                  <p id="userInfo">Belum login</p>
+                    <div id="authArea">
+                         <button onclick="goLogin()" class="nav-cta">Login</button>
+                    </div>
                     <a class='menu-trigger'>
                         <span>Menu</span>
                     </a>
@@ -92,40 +95,40 @@ https://templatemo.com/tm-579-cyborg-gaming
             <div class="col-lg-8">
               <div class="featured-games header-text">
                 <div class="heading-section">
-                  <h4><em>Featured</em> Games</h4>
+                  <h4><em>Wishlist</em> & Tabungan</h4>
                 </div>
                 <div class="owl-features owl-carousel">
                   <div class="item">
                     <div class="thumb">
                       <img src="assets/images/featured-01.jpg" alt="">
                       <div class="hover-effect">
-                        <h6>2.4K Streaming</h6>
+                        <h6>KRencana Self-Reward</h6>
                       </div>
                     </div>
-                    <h4>CS-GO<br><span>249K Downloads</span></h4>
+                    <h4>AC Baru<br><span>Rp.xxxxxxxx</span></h4>
                     <ul>
-                      <li><i class="fa fa-star"></i> 4.8</li>
-                      <li><i class="fa fa-download"></i> 2.3M</li>
+                      <li><i class="fa fa-star"></i> 10/10</li>
+                      <li><i class="fa fa-download"></i> Mendesak</li>
                     </ul>
                   </div>
                   <div class="item">
                     <div class="thumb">
                       <img src="assets/images/featured-02.jpg" alt="">
                       <div class="hover-effect">
-                        <h6>2.4K Streaming</h6>
+                        <h6>Furnitur</h6>
                       </div>
                     </div>
-                    <h4>Gamezer<br><span>249K Downloads</span></h4>
+                    <h4>Sepatu<br><span>Rp.xxxxxxx</span></h4>
                     <ul>
-                      <li><i class="fa fa-star"></i> 4.8</li>
-                      <li><i class="fa fa-download"></i> 2.3M</li>
+                      <li><i class="fa fa-star"></i> 5/10</li>
+                      <li><i class="fa fa-download"></i> Tidak mendesak</li>
                     </ul>
                   </div>
                   <div class="item">
                     <div class="thumb">
                       <img src="assets/images/featured-03.jpg" alt="">
                       <div class="hover-effect">
-                        <h6>2.4K Streaming</h6>
+                        <h6>Fashion</h6>
                       </div>
                     </div>
                     <h4>Island Rusty<br><span>249K Downloads</span></h4>
@@ -179,42 +182,42 @@ https://templatemo.com/tm-579-cyborg-gaming
             <div class="col-lg-4">
               <div class="top-downloaded">
                 <div class="heading-section">
-                  <h4><em>Top</em> Downloaded</h4>
+                  <h4><em>Target</em> Tabungan</h4>
                 </div>
                 <ul>
                   <li>
                     <img src="assets/images/game-01.jpg" alt="" class="templatemo-item">
-                    <h4>Fortnite</h4>
-                    <h6>Sandbox</h6>
-                    <span><i class="fa fa-star" style="color: yellow;"></i> 4.9</span>
-                    <span><i class="fa fa-download" style="color: #ec6090;"></i> 2.2M</span>
+                    <h4>Dana Darurat</h4>
+                    <h6>Terkumpul 70%</h6>
+                    <span><i class="fa fa-star" style="color: yellow;"></i> 50k</span>
+                    <span><i class="fa fa-download" style="color: #ec6090;"></i> 5jt</span>
                     <div class="download">
                       <a href="#"><i class="fa fa-download"></i></a>
                     </div>
                   </li>
                   <li>
                     <img src="assets/images/game-02.jpg" alt="" class="templatemo-item">
-                    <h4>CS-GO</h4>
-                    <h6>Legendary</h6>
-                    <span><i class="fa fa-star" style="color: yellow;"></i> 4.9</span>
-                    <span><i class="fa fa-download" style="color: #ec6090;"></i> 2.2M</span>
+                    <h4>Uang Liburan</h4>
+                    <h6>Terkumpul 30%</h6>
+                    <span><i class="fa fa-star" style="color: yellow;"></i> 20k</span>
+                    <span><i class="fa fa-download" style="color: #ec6090;"></i> 3jt</span>
                     <div class="download">
                       <a href="#"><i class="fa fa-download"></i></a>
                     </div>
                   </li>
                   <li>
                     <img src="assets/images/game-03.jpg" alt="" class="templatemo-item">
-                    <h4>PugG</h4>
-                    <h6>Battle Royale</h6>
-                    <span><i class="fa fa-star" style="color: yellow;"></i> 4.9</span>
-                    <span><i class="fa fa-download" style="color: #ec6090;"></i> 2.2M</span>
+                    <h4>Uang Belanja</h4>
+                    <h6>Terkumpul 70k</h6>
+                    <span><i class="fa fa-star" style="color: yellow;"></i> 10k</span>
+                    <span><i class="fa fa-download" style="color: #ec6090;"></i> 2jt</span>
                     <div class="download">
                       <a href="#"><i class="fa fa-download"></i></a>
                     </div>
                   </li>
                 </ul>
                 <div class="text-button">
-                  <a href="profile.html">View All Games</a>
+                  <a href="profile.html">Lihat Semua Target</a>
                 </div>
               </div>
             </div>
