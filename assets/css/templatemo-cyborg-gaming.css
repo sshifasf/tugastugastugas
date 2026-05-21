@@ -129,7 +129,7 @@ body {
 
 body .page-content {
   margin-top: 110px;
-  background-color: #27292a;
+  background-color: #4a5759;
   padding: 60px;
   border-radius: 23px;
 }
@@ -142,12 +142,12 @@ p {
 }
 
 ::selection {
-  background: #e75e8d;
+  background: #588157;
   color: #fff;
 }
 
 ::-moz-selection {
-  background: #e75e8d;
+  background: #588157;
   color: #fff;
 }
 
@@ -159,7 +159,7 @@ p {
 .main-button a {
   font-size: 14px;
   color: #fff;
-  background-color: #e75e8d;
+  background-color: #b0c4b1;
   padding: 12px 30px;
   display: inline-block;
   border-radius: 25px;
@@ -173,14 +173,14 @@ p {
 
 .main-button a:hover {
   background-color: #fff;
-  color: #e75e8d;
+  color: #b0c4b1;
 }
 
 .main-border-button a {
   font-size: 14px;
-  color: #ec6090;
+  color: #b0c4b1;
   background-color: transparent;
-  border: 1px solid #ec6090;
+  border: 1px solid #b0c4b1;
   padding: 12px 30px;
   display: inline-block;
   border-radius: 25px;
@@ -195,7 +195,7 @@ p {
 .main-border-button a:hover {
   border-color: #fff;
   background-color: #fff;
-  color: #e75e8d;
+  color: #588157;
 }
 
 .border-no-active a {
