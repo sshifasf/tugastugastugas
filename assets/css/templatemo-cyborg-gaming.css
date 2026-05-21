@@ -97,7 +97,7 @@ a:hover {
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0px;
   margin-bottom: 0px;
-  color: #fff;
+  color: #2b2d42;
   font-weight: 700;
 }
 
@@ -108,7 +108,7 @@ ul {
 p {
   font-size: 15px;
   line-height: 30px;
-  color: #fff;
+  color: #4a4a4a;
 }
 
 img {
@@ -123,13 +123,13 @@ Global Styles
 */
 html,
 body {
-  background: #1f2122;
+  background: #f8f9fa;
   font-family: 'Poppins', sans-serif;
 }
 
 body .page-content {
   margin-top: 110px;
-  background-color: #4a5759;
+  background-color: #f4f1de;
   padding: 60px;
   border-radius: 23px;
 }
@@ -834,7 +834,7 @@ Most Popular Style
 .most-popular {
   margin-top: 60px;
   padding: 30px;
-  background-color: #1f2122;
+  background-color: #ffffff;
   border-radius: 23px;
 }
 
@@ -903,7 +903,7 @@ Gaming Library Style
 .gaming-library {
   margin-top: 60px;
   padding: 30px;
-  background-color: #1f2122;
+  background-color: #ffffff;
   border-radius: 23px;
 }
 
