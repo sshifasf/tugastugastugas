@@ -97,7 +97,7 @@ a:hover {
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0px;
   margin-bottom: 0px;
-  color: #2b2d42;
+  color: #fff;
   font-weight: 700;
 }
 
@@ -108,7 +108,7 @@ ul {
 p {
   font-size: 15px;
   line-height: 30px;
-  color: #4a4a4a;
+  color: #fff;
 }
 
 img {
@@ -123,13 +123,13 @@ Global Styles
 */
 html,
 body {
-  background: #f8f9fa;
+  background: #4a5759;
   font-family: 'Poppins', sans-serif;
 }
 
 body .page-content {
   margin-top: 110px;
-  background-color: #f4f1de;
+  background-color: #4a5759;
   padding: 60px;
   border-radius: 23px;
 }
