@@ -66,7 +66,7 @@
                 <div class="form-group">
                     <div class="input-container">
                         <div class="input-bg"></div>
-                        <input type="email" id="username" name="email" required autocomplete="email" placeholder=" ">
+                        <input type="email" id="email" name="email" required autocomplete="email" placeholder=" ">
                         <label for="username">Email</label>
                         <div class="input-wave"></div>
                     </div>
@@ -112,10 +112,12 @@
                     <a href="#" class="forgot-link">Lupa Password?</a>
                 </div>
 
+                <p id="message"></p>
+                
                 <button type="submit" class="gradient-button">
                     <div class="button-bg"></div>
                     <div class="button-content">
-                        <span class="btn-text">Masuk</span>
+                        <span class="btn-text">Daftar</span>
                         <div class="btn-loader">
                             <div class="loader-wave"></div>
                             <div class="loader-wave"></div>
@@ -161,7 +163,7 @@
             </div>
 
             <div class="signup-link">
-                <p>Belum Punya Akun? <a href="#">Buat Akun</a></p>
+                <p>Sudah Punya Akun? <a href="#">Login Sekarang</a></p>
             </div>
 
             <div class="success-message" id="successMessage">
@@ -181,6 +183,6 @@
 
     <script src="../../shared/js/form-utils.js"></script>
     <script src="script.js"></script>
-    <script src="js/login.js"></script>
+    <script src="js/register.js" defer></script>
 </body>
 </html>
